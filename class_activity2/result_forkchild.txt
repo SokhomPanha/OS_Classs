@@ -1,0 +1,6 @@
+Parent process: child PID = 10603
+command_used_forkchild.txt
+forkChild.c
+forkchild
+forkchild.exe
+result_forkchild.txt
