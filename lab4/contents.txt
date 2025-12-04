@@ -1,0 +1,15 @@
+total 56
+drwxr-xr-x  2 sudoku sudoku 4096 Nov 28 14:40 Desktop
+drwxr-xr-x 11 sudoku sudoku 4096 Dec  3 10:42 Documents
+drwxr-xr-x  8 sudoku sudoku 4096 Nov 29 07:34 Downloads
+drwxrwxr-x 11 sudoku sudoku 4096 Nov 20 16:25 Lab3
+drwxr-xr-x  2 sudoku sudoku 4096 Nov 10 14:19 Music
+drwxr-xr-x  3 sudoku sudoku 4096 Nov 12 23:37 Pictures
+drwxrwxr-x  3 sudoku sudoku 4096 Nov 26 13:46 Project
+drwxr-xr-x  2 sudoku sudoku 4096 Nov 10 14:19 Public
+drwxrwxr-x  7 sudoku sudoku 4096 Nov 21 08:22 Router
+drwxr-xr-x  2 sudoku sudoku 4096 Nov 10 14:19 Templates
+drwxr-xr-x  2 sudoku sudoku 4096 Nov 21 14:45 Videos
+drwxr-xr-x  2 root   root   4096 Nov 12 10:46 class_activity1
+drwxrwxr-x  2 sudoku sudoku 4096 Nov 13 13:17 ggdhjasjd
+drwx------  9 sudoku sudoku 4096 Nov 21 11:30 snap

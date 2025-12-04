@@ -1,0 +1,50 @@
+ 1023  cd OS_Classs/
+ 1024  git checkout
+ 1025  git remote -v
+ 1026  git checkout -b ClassActivities
+ 1027  git add .
+ 1028  git commit -m "class 1-4" 
+ 1029  git push origin main ClassActivities
+ 1030  cd 
+ 1031  cd Documents/
+ 1032  git remote -v
+ 1033  cd class_activity/
+ 1034  git init
+ 1035  git remote -v
+ 1036  [200~git remote add origin https://github.com/SokhomPanha/OS_Classs.git
+ 1037  git remote add origin https://github.com/SokhomPanha/OS_Classs.git
+ 1038  git checkoout -b Class_Activities
+ 1039  git checkout -b Class_Activities
+ 1040  git add .
+ 1041  rm -rf Class_Activity4/OS_Classs/.git
+ 1042  rm -rf class_activity1/.git
+ 1043  git add .
+ 1044  git commit -m " Class Activities 1 - 4" 
+ 1045  git push origin main 
+ 1046  git push -u origin Class_Activities
+ 1047  cd Doc
+ 1048  cd Documents/
+ 1049  cd class_activity/
+ 1050  mkrir Lab
+ 1051  mkdir Lab
+ 1052  cd Lab/
+ 1053  mkdir Lab4
+ 1054  cd Lab4/
+ 1055  ls -l ~ > /Lab4/contents.txt
+ 1056  cd ..
+ 1057  ls -l ~ > /Lab4/contents.txt
+ 1058  cd Lab4/
+ 1059  ls -l ~ > contents.txt
+ 1060  ls
+ 1061  clear
+ 1062  mkdir lab4
+ 1063  [200~ls -l ~ > ~/lab4/contents.txt
+ 1064  ls -l ~ > ~/lab4/contents.txt
+ 1065  ls -l ~ > lab4/contents.txt
+ 1066  sort ~/lab4/contents.txt > ~/lab4/contents-sorted.txt
+ 1067  sort lab4/contents.txt > lab4/contents-sorted.txt
+ 1068  tail /etc/passwd > lab4/newfile.txt
+ 1069  wc -w < lab4/contents.txt >> lab4/file2.txt
+ 1070  head -n 5 /etc/passwd | sort -r
+ 1071  find /usr/share -name test
+ 1072  history | tail -n 50 > lab4/commands_history.txt
