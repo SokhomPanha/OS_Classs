@@ -1,0 +1,50 @@
+  236  cd Lab4
+  237  ls -l ~ > ~/Lab4/contents.txt
+  238  sort contents.txt  >> contents-sorted.txt
+  239  tail /etc/passwd > ~/Lab4/Documents/newfile.txt
+  240  cd
+  241  tail /etc/passwd > ~/Lab4/Documents/newfile.txt
+  242  tail /etc/passwd >> ~/lab4/Documents/newfile.txt
+  243  git remote -v
+  244  git clone https://github.com/SokhomPanha/OS_Classs.git
+  245  cd OS_Classs/
+  246  git checkout Class_Activities
+  247  ls
+  248  git remote -v
+  249  cd 
+  250  tree
+  251  cd OS_Classs/
+  252  cd lab4/
+  253  tree
+  254  mkdir -p challenge1/original_log
+  255  mkdir -p challenge1/analysis
+  256  mkdir -p challenge1/commands_used
+  257  tree
+  258  ls -1 challenge1/original_log/ | wc -l > challenge1/analysis/task1_basic_stats.txt
+  259  wc -l challenge1/original_log/*.log >> challenge1/analysis/task1_basic_stats.txt
+  260  ls
+  261  cd challenge1/
+  262  ls
+  263  cd original_log/
+  264  touch access.log
+  265  nano access.log 
+  266  cd ..
+  267  wc -l challenge1/original_log/*.log >> challenge1/analysis/task1_basic_stats.txt
+  268  head -n 5 challenge1/original_log/access.log >> challenge1/analysis/task1_basic_stats.txt
+  269  tail -n 5 challenge1/original_log/access.log >> challenge1/analysis/task1_basic_stats.txt
+  270  echo "ls -1 challenge1/original_log/ | wc -l" > challenge1/commands_used/task1_commands.txt
+  271  echo "wc -l challenge1/original_log/*.log" >> challenge1/commands_used/task1_commands.txt
+  272  echo "head -n 5 challenge1/original_log/access.log" >> challenge1/commands_used/task1_commands.txt
+  273  echo "tail -n 5 challenge1/original_log/access.log" >> challenge1/commands_used/task1_commands.txt
+  274  tree
+  275  echo "ls -1 challenge1/original_log/ | wc -l" > challenge1/commands_used/task1_commands.txt
+  276  echo "wc -l challenge1/original_log/*.log" >> challenge1/commands_used/task1_commands.txt
+  277  echo "head -n 5 challenge1/original_log/access.log" >> challenge1/commands_used/task1_commands.txt
+  278  echo "tail -n 5 challenge1/original_log/access.log" >> challenge1/commands_used/task1_commands.txt
+  279  tree
+  280  cd commands_used
+  281  cd challenge1/
+  282  cd commands_used/
+  283  nano task1_commands.txt 
+  284  cd ..
+  285  history |tail -n 50 > challenge1/commands_used/task1_commands.txt
