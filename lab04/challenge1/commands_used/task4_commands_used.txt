@@ -1,0 +1,50 @@
+ 1563  cat task1_basic_stats.txt 
+ 1564  cd ..
+ 1565  cd original_log/
+ 1566  head -n 5 access.log 
+ 1567  head -n 5 access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task1_basic_stats.txt
+ 1568  tail -n 5 access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task1_basic_stats.txt
+ 1569  cd 
+ 1570  cd ~/Documents/class_activity/lab04/challenge1/analysis/task1_basic_stats.txt
+ 1571  cd ~/Documents/lass_activity/lab04/challenge1/analysis/task1_basic_stats.txt
+ 1572  cd ~/Documents/lass_activity/lab04/challenge1/analysis
+ 1573  cd ~/Documents/class_activity/lab04/challenge1/analysis
+ 1574  cat task1_basic_stats.txt 
+ 1575  history | tail -n 50 > ~/Documents/class_activity/lab04/challenge1/commands_used/task1_command_used.txt
+ 1576  cd ..
+ 1577  cd commands_used/
+ 1578  cat task1_command_used.txt 
+ 1579  cd ..
+ 1580  grep -E "401|403" original_log/access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task2_fail_login.txt
+ 1581  cat analysis/task2_fail_login.txt 
+ 1582  grep -E --color=always "401|403" original_log/access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task2_fail_login.txt
+ 1583  cat analysis/task2_fail_login.txt
+ 1584  nano analysis/task2_fail_login.txt 
+ 1585  grep -E --color=always "401|403" original_log/access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task2_fail_login.txt
+ 1586  cat analysis/task2_fail_login.txt
+ 1587  grep -E --color=always "401|403" original_log/access.log | cut -f1 -d" " | sort | uniq -c >> analysis/task2_fail_login.txt 
+ 1588  cat analysis/task2_fail_login.txt
+ 1589  wc -l | grep -E --color=always "401|403" original_log/access.log | cut -f1 -d" " | sort | uniq -c >> analysis/task2_fail_login.txt 
+ 1590  cat analysis/task2_fail_login.txt
+ 1591  nano analysis/task2_fail_login.txt 
+ 1592  grep -E --color=always "401|403" original_log/access.log | cut -f1 -d" " | sort | uniq -c >> analysis/task2_fail_login.txt 
+ 1593  nano analysis/task2_fail_login.txt 
+ 1594  history | tail -n 50 > ~/Documents/class_activity/lab04/challenge1/commands_used/task2_command_used.txt
+ 1595  tree
+ 1596  cat analysis/task2_fail_login.txt 
+ 1597  grep -iE "bot|scan|exploit|curl|wget" original_log/access.log >> ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+ 1598  grep -iE "bot|scan|exploit|curl|wget" original_log/access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task3_suspicious_agents.txt
+ 1599  cat analysis/task3_suspicious_agents.txt 
+ 1600  grep -iE "/wp-admin|/admin|/.git" original_log/access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task3_suspicious_agents.txt
+ 1601  rm analysis/task3_suspicious_agents.txt 
+ 1602  grep -iE --color=always "bot|scan|exploit|curl|wget" original_log/access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task3_suspicious_agents.txt
+ 1603  grep -iE --color=always "/wp-admin|/admin|/.git" original_log/access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task3_suspicious_agents.txt
+ 1604  grep -iE --color=always "\cmd" original_log/access.log >> ~/Documents/class_activity/lab04/challenge1/analysis/task3_suspicious_agents.txt
+ 1605  cat analysis/task3_suspicious_agents.txt 
+ 1606  history | tail -n 50 > commands_used/task3_commands_used.txt
+ 1607  cat commands_used/task3_commands_used.txt 
+ 1608  cut -f1,4" " original_log/access.log | cut -f1,2 -d":" | sort | uniq -c >> analysis/task4_top_ips.txt
+ 1609  cut -f1,4 -d" " original_log/access.log | cut -f1,2 -d":" | sort | uniq -c >> analysis/task4_top_ips.txt
+ 1610  cut -f7 -d" " original_log/access.log | sort | uniq -c | sort -r >> analysis//task4_top_ips.txt 
+ 1611  cat analysis/task4_top_ips.txt 
+ 1612  history | tail -n 50 > commands_used/task4_commands_used.txt

@@ -1,0 +1,20 @@
+ 1608  cut -f1,4" " original_log/access.log | cut -f1,2 -d":" | sort | uniq -c >> analysis/task4_top_ips.txt
+ 1609  cut -f1,4 -d" " original_log/access.log | cut -f1,2 -d":" | sort | uniq -c >> analysis/task4_top_ips.txt
+ 1610  cut -f7 -d" " original_log/access.log | sort | uniq -c | sort -r >> analysis//task4_top_ips.txt 
+ 1611  cat analysis/task4_top_ips.txt 
+ 1612  history | tail -n 50 > commands_used/task4_commands_used.txt
+ 1613  cat commands_used/task4_commands_used.txt 
+ 1614  tree
+ 1615  cd ..
+ 1616  mkdir challenge2
+ 1617  cd challenge2
+ 1618  mkdir data
+ 1619  cd data/
+ 1620  nano employees.txt
+ 1621  cd ..
+ 1622  tree
+ 1623  mkdir results
+ 1624  mkdir commands
+ 1625  grep -iE --color=always "IT" data/employees.txt >> ~/Documents/class_activity/lab04/challenge2/results/task1_IT_staff.txt
+ 1626  cat results/task1_IT_staff.txt 
+ 1627  history | tail -n 20 > commands/task1_commands.txt

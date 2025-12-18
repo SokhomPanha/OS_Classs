@@ -1,0 +1,20 @@
+ 1622  tree
+ 1623  mkdir results
+ 1624  mkdir commands
+ 1625  grep -iE --color=always "IT" data/employees.txt >> ~/Documents/class_activity/lab04/challenge2/results/task1_IT_staff.txt
+ 1626  cat results/task1_IT_staff.txt 
+ 1627  history | tail -n 20 > commands/task1_commands.txt
+ 1628  cat commands/task1_commands.txt 
+ 1629  tree
+ 1630  cut -d',' -f4 | cut -d':' -f2 >> results/task2_all_emails.txt
+ 1631  cut -d',' -f4 | cut -d':' -f2 >> ~/Documents/class_activity/lab04/challenge2/results/task2_all_emails.txt
+ 1632  tree
+ 1633  rm results/task2_all_emails.txt 
+ 1634  cut -d',' -f4 data/employees.txt | cut -d':' -f2 >> ~/Documents/class_activity/lab04/challenge2/results/task2_all_emails.txt
+ 1635  cat results/task2_all_emails.txt 
+ 1636  history | tail -n 20 > commands/task2_commands.txt
+ 1637  tree
+ 1638  cat commands/task2_commands.txt 
+ 1639  grep 'email:j' data/employees.txt | cut -d',' -f4 | cut -d':' -f2 >> ~/Documents/class_activity/lab04/challenge2/results/task3_j_emails.txt 
+ 1640  cat results/task3_j_emails.txt 
+ 1641  history | tail -n 20 > commands/task3_commands.txt
